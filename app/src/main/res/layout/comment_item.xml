@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgUserComment"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+            <TextView
+                android:id="@+id/tvUserComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Cao Cường"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="19dp"/>
+            <TextView
+                android:id="@+id/tvContentComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Truyện hay quá đi"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+            <TextView
+                android:id="@+id/tvCommentDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20/11/2023"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+</LinearLayout>
